@@ -42,11 +42,11 @@ class JD:
         self.goods_id = ''  
         #会话
         self.session = requests.session()
-
-        #3080搜索链接
-        self.rep_url = 'https://search.jd.com/search?keyword=3080&qrst=1&wq=3080&shop=1&ev=exbrand_%E4%B8%83%E5%BD%A9%E8%99%B9%EF%BC%88Colorful%EF%BC%89%5E296_136030%5Eexprice_6299-6299%5E'
+   
+        #3070ti搜索链接
+        self.rep_url = 'https://search.jd.com/Search?keyword=3070ti&enc=utf-8&wq=3070ti&pvid=571d57028e034012bfc89c78f828ffc7'
         #耕升3080追风
-        self.g_url = 'https://item.jd.com/100015062658.html'
+        self.g_url = 'https://item.jd.com/100022887988.html'
         #商品详情地址
         self.item_info_url = 'https://item-soa.jd.com/getWareBusiness?skuId={}'
         #预约地址
